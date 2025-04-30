@@ -41,8 +41,9 @@ Rendering:
 
 The component returns a JSX structure that includes a product card with an image, title, price, rating, and buttons for incrementing and decrementing the count.
 
-Live Link
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-You can view the live application at the following link: React Product Counter
+[Live Demo of React Projects]
 
 
