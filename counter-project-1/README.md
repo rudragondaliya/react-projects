@@ -44,6 +44,10 @@ The component returns a JSX structure that includes a product card with an image
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-[Live Demo of React Projects]
+🔗 Live Preview
+View the live version of this project here:
+👉 https://react-projects-sigma-lovat.vercel.app
+
+
 
 
