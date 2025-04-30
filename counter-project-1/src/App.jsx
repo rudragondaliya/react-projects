@@ -54,7 +54,7 @@ const App = () => {
     </div>
     <p/>
     <button className=' btnfw-bold mx-2 shadow fs-5' onClick={handleDecrement}>-</button>
-    <span className='mx-2 fs-5'>{count}0</span>
+    <span className='mx-2 fs-5'>{count}</span>
     <button className=' btnfw-bold shadow fs-5 mx-2' onClick={handleIncrement}>+</button> <br />
     <a href className="btn cartBtn text-white w-100 mt-4">Add to cart</a>
   </div>
