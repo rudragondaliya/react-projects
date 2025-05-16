@@ -19,7 +19,7 @@ A simple and efficient CRUD (Create, Read, Update, Delete) application built wit
 ## 🚀 Live Demo
 
 Check out the live application here:  
-👉 [Live App on Vercel](https://vercel.com/rudra-gondaliyas-projects/crud-app)
+👉 [Live App on Vercel]([https://vercel.com/rudra-gondaliyas-projects/crud-app](https://crud-app-neon-five.vercel.app/))
 
 ## ✨ Features
 
