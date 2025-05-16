@@ -42,6 +42,20 @@ Check out the live application here:
 - Express.js *(if used)*
 - MongoDB *(or your chosen database)*
 
-## 📦 Installation
+📋 Usage
+Create Entries: Fill out the form and click the "Add" button.
 
-Follow the steps below to
+View Entries: Entries are displayed in a list format.
+
+Update Entries: Click the "Edit" button to modify an entry.
+
+Delete Entries: Click the "Delete" button to remove an entry.
+
+🤝 Contributing
+Contributions are welcome! If you have suggestions or want to report a bug, feel free to open an issue or submit a pull request.
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+🙏 Acknowledgments
+Thanks to all the contributors and the open-source community for their inspiration and support!
