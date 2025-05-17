@@ -256,7 +256,7 @@ const App = () => {
               </div>
             </div>
 
-            {/* Table Card */}
+           
             <div className={`card shadow-sm ${darkMode ? 'bg-secondary text-light' : ''}`}>
               <div className="card-body">
                 <h4 className="card-title mb-3">Employee List</h4>
@@ -288,14 +288,14 @@ const App = () => {
                             <td>{city}</td>
                             <td>
                               <button
-                                className="btn btn-danger btn-sm me-2"
+                                className="btn btn-danger btn me-2"
                                 onClick={() => handleDelete(id)}
                                 title="Delete"
                               >
                                Delete
                               </button>
                               <button
-                                className="btn btn-warning btn-sm"
+                                className="btn btn-warning btn"
                                 onClick={() => handleEdit(id)}
                                 title="Edit"
                               >
