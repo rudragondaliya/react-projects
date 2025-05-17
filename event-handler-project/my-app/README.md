@@ -17,7 +17,7 @@ A simple React application that demonstrates how to handle events effectively in
 
 ## 🚀 Live Demo
 
-Check out the live demo here: **[Live Demo](https://your-live-demo-link.com)**  
+Check out the live demo here: **[Live Demo](https://react-pr-3-event-handler.vercel.app/)**  
 _(Replace the above link with your actual deployed app URL.)_
 
 ---
