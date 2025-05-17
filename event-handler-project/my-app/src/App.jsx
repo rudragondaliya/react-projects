@@ -292,14 +292,14 @@ const App = () => {
                                 onClick={() => handleDelete(id)}
                                 title="Delete"
                               >
-                                <i className="bi bi-trash"></i>
+                               Delete
                               </button>
                               <button
                                 className="btn btn-warning btn-sm"
                                 onClick={() => handleEdit(id)}
                                 title="Edit"
                               >
-                                <i className="bi bi-pencil-square"></i>
+                               Edit
                               </button>
                             </td>
                           </tr>
