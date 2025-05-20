@@ -5,6 +5,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .navbar-logo {
   width: 120px;
   height: auto;
@@ -57,7 +58,7 @@
   }
 
   .card-area{
-    height: 500px;
+    height: 210px;
     width: 100%;
     overflow-y: scroll;
     scrollbar-width: none;

@@ -5,6 +5,10 @@ import { FaStar } from "react-icons/fa";
 import poster from './assets/raid-post.avif'
 import Form from './components/Form';
 import Card from './components/Card';
+import { FaFacebook } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaThreads } from "react-icons/fa6";
 
 
 const App = () => {
@@ -151,10 +155,6 @@ const App = () => {
           <button type="button" class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Review Here</button>
         </div>
 
-      
-
-        
-
 
 
         <div className="mb-3">
@@ -172,7 +172,7 @@ const App = () => {
 
   <section className='abMovie p-5'>
     <div className="container-fluid">
-      <div className="ab-txt">
+      <div className="ab-txt  ">
         <h3 className='text-black fw-semibold'>About This Movie</h3>
         <p className='fw-medium fs-6 mt-3'>A fiery Income Tax officer, Amay Patnaik, confronts the corrupt nexus in Bhoj. Beneath the veneer of honesty lies a sinister <br /> operation tied to Dada Bhai, a revered politician. As Amay unravels layers of deceit buried in fields and fortresses, one question <br /> looms: will justice prevail, or will power silence the truth?</p>
       </div>
@@ -198,6 +198,39 @@ const App = () => {
       </div>
     </div>
   </section>
+
+
+<div className="container-fluid gx-0 footer">
+  <footer className="text-center text-lg-start" style={{backgroundColor: '#F84464'}}>
+    <div className="container d-flex justify-content-center py-5">
+      <button type="button" className="btn btn-dark btn-lg btn-floating mx-2">
+      <FaFacebook />
+      </button>
+      <button type="button" className="btn btn-dark btn-lg btn-floating mx-2">
+        <FaYoutube />
+      </button>
+      <button type="button" className="btn btn-dark btn-lg btn-floating mx-2">
+       <FaInstagram />
+      </button>
+      <button type="button" className="btn btn-dark btn-lg btn-floating mx-2 border-none">
+        <FaThreads />
+      </button>
+    </div>
+    
+    <div className="text-center text-white p-3" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
+      © 2025 Copyright:
+      <a className="text-white" href="https://in.bookmyshow.com/explore/home/navsari">bookmyShow.com</a>
+    </div>
+   
+  </footer>
+</div>
+
+
+
+
+
+
+  
 
     <Form
         handleChange={handleChange}
