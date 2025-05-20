@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-logo {
+  width: 120px;
+  height: auto;
+  max-height: 40px; 
+  object-fit: cover;
+}
+
+.sign-btn{
+  background-color: #F84464 !important;
+  color: white !important;
+}
+
+.links-menu{
+  height: 50px;
+  width: 100%;
+}
+
+.banner {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+                  url('./assets/raid-2.jpg') center center / cover no-repeat;
+      height: 600px;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+
+    .poster-img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .rating-box {
+      background-color: rgba(25, 24, 24, 0.1) !important;
+      border-radius: 8px;
+      padding: 10px 15px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-pink {
+      background-color: #ff3366 !important;
+      border: none !important;
+    }
+
+
+  .review-btn{
+     background-color: #F84464 !important;
+     color: white !important;
+  }
+
+  .card-area{
+    height: 500px;
+    width: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  
+  .card{
+    border: 2px solid #F84464 !important;
+  }
+ 
