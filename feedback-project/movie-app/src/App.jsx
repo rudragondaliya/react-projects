@@ -225,13 +225,6 @@ const App = () => {
   </footer>
 </div>
 
-
-
-
-
-
-  
-
     <Form
         handleChange={handleChange}
         handleSubmit={handleSubmit}
@@ -242,9 +235,5 @@ const App = () => {
     </>
   );
 }
-
-
-
-
 
 export default App;

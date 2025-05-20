@@ -24,7 +24,7 @@ const Form = ({handleChange,handleSubmit,feedback}) => {
                  
 
                   <div className="mb-3">
-                    <label htmlFor="message-text" className="col-form-label">Review:</label>
+                    <label htmlFor="message-text" className="col-form-label">Feedback:</label>
                     <textarea className="form-control" name='message' onChange={handleChange} value={feedback.message || ''} id="message-text" defaultValue={""} />
                   </div>
                    <button type="submit" data-bs-dismiss="modal" className="btn btn-primary w-100 border-0 review-btn">Send message</button>
