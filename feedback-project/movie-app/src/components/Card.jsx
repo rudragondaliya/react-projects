@@ -1,8 +1,9 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { CiShare2 } from "react-icons/ci";
+import { FaTrash } from "react-icons/fa";
 
-const Card = ({list,star}) => {
+const Card = ({list,star,handleDelete,id}) => {
   return (
     <>
       {
@@ -28,9 +29,12 @@ const Card = ({list,star}) => {
                 <p className="card-text"> <small>{message}</small></p>
                 <div className='d-flex gap-2'>
                   <p>Did you find it helpful?</p>
-                <a href="#" className="card-link">Yes</a>
-                <a href="#" className="card-link">No</a>
+                <a href="#" className="card-link text-decoration-none ms-1">Yes</a>
+                <a href="#" className="card-link text-decoration-none">No</a>
+                <FaTrash  key={idx} color='FF355E' className='ms-3' onClick={()=>handleDelete(val.id)} size={20}/>
                 </div>
+
+                
 
                 
             </div>

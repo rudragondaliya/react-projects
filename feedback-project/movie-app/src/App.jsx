@@ -15,7 +15,7 @@ const App = () => {
      const [feedback,setFeedback] = useState({})
 
 
-        useEffect(() => {
+    useEffect(() => {
     const savedList = JSON.parse(localStorage.getItem("list")) || [];
     setList(savedList);
   }, []);
@@ -42,8 +42,7 @@ const App = () => {
 
      const handleSubmit=(e)=>{
        e.preventDefault()
-
-       setList([...list,{...feedback,star : star}])
+       setList([...list,{...feedback,id:Date.now(),star : star}])
        setFeedback({});
        alert("ThankYou For Your feedback..")
      }
@@ -53,6 +52,10 @@ const App = () => {
       setFeedback({...feedback,[name]:value})
     }
 
+    const handleDelete=(id)=>{
+        let cardData = list.filter((val)=> val.id !== id);
+        setList(cardData)
+    }
      
 
   return (
@@ -72,10 +75,10 @@ const App = () => {
              
             <li className="nav-item dropdown">
             <button className="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Navsari
             </button>
             <ul className="dropdown-menu dropdown-menu-dark">
-              <li><a className="dropdown-item" href="#">Navsari</a></li>
+              <li><a className="dropdown-item" href="#">Valsad</a></li>
               <li><a className="dropdown-item" href="#">Vapi action</a></li>
               <li><a className="dropdown-item" href="#">Surat</a></li>
             </ul>
@@ -188,6 +191,7 @@ const App = () => {
                 <Card
                   list={list}
                   star={star}
+                  handleDelete={handleDelete}
                 />
               </div>
             </div>
